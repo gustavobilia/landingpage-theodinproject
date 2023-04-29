@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    padding: 0;
 }
 
 header {
@@ -17,4 +18,57 @@ header {
     color: #f9faf8;
     margin: 30px;
     text-decoration: none;
+}
+
+a:hover {
+    color: #acb1ce;
+    transition: .4s;
+}
+
+.intro-div {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: content;
+    padding: 2rem;
+}
+
+#intro-text {
+    color: #f9faf8;
+    margin-left: 1.6rem;
+}
+
+#intro-text h1 {
+    margin-bottom: 2rem;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+#intro-text p {
+    margin-bottom: 2rem;
+}
+
+#intro-text button {
+    color: #f9faf8;
+    background-color: #3882f6;
+    border-radius: 5px;
+    width: auto;
+    padding: 0;
+    border: none;
+    width: 7rem;
+    height: 2rem;
+    
+}
+
+
+#intro-text button:hover {
+    cursor: pointer;
+}
+
+img {
+    width: auto;
+    height: 20rem;
+    border-radius: 5px;
+    margin: 0rem 3.4rem;
 }
